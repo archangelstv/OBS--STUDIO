@@ -8,59 +8,7 @@ Simple, powerful, and efficient live streaming software built on Electron and OB
 
 This application currently only supports 64-bit Windows.
 
-## Dependencies
-
-### Node.js
-
-Node is required for installing npm packages and for running
-various scripts.  We recommend the current LTS release, 8.x.x:
-
-https://nodejs.org
-
-### Yarn
-
-In order to ensure you are using the correct version of each
-node module, you should use the yarn package manager.
-Installation instructions can be found here:
-
-https://yarnpkg.com/en/docs/install
-
-## Installation
-
-Install all node modules via yarn:
-
-```
-yarn install
-```
-
-Then, compile assets with webpack:
-
-```
-yarn compile
-```
-
-## Starting
-
-If you are using Visual Studio Code, you can start the app
-using the built in debugger (default F5).
-
-Otherwise, you can run the app with:
-
-```
-yarn start
-```
-
-## Environment Variables
-
-These variables can be used in development to force certain behavior.
-
-`SLOBS_FORCE_AUTO_UPDATE`: Force the auto-updater to run in development. Normally
-this would only run in production.
-
-`SLOBS_CACHE_DIR`: Force a different location for the user data cache directory.
-
-`SLOBS_DISABLE_MAIN_LOGGING`: Disable javascript logging in the main process.
-
+##
 `SLOBS_REPORT_TO_SENTRY`: Report errors to sentry in the dev environment
 
 ## Packaging / Distributing
